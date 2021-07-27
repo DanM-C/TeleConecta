@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .logo {
     text-align: center;
     height: 5.7em;
@@ -25,49 +29,7 @@ body{
     transform: scale(1.1);
 }
 
-/* BANNERS */
-.banner-one {
-    width: 100%;
-    animation: move 1.5s;
-}
-
 /* FOOTER */
-
-footer {
-    background: #EFD742;
-    color: #000;
-    width: 100%;
-    height: auto;
-}
-
-.footer-content {
-    bottom: 0;
-    position:relative;
-    text-align: left;
-    width: 100%;
-}
-
-.all-footer {
-    display: flex;
-    width: 100%;
-}
-
-.sec {
-    margin: 2em 2em 1em 2em;
-    text-align: left;
-    display: block;
-    width: 100%;
-}
-
-.logo-end {
-    text-align: center;
-    height: 5em;
-    margin: .5em;
-}
-
-.sec span {
-    font-size: .9em;
-}
 
 span a {
     color: #000;
@@ -90,12 +52,7 @@ span a:hover {
 
 .ilu {
     width: 100%;
-    margin: 0%;
-    text-align: center;
     padding: .1em 0 1em 0;
-    height: 2em;
-    background: #000;
-    color: #F4F4F4;
 }
 
 /* ICONO DE REDIRECCIÓN A WHATSAPP */
