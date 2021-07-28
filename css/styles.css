@@ -68,12 +68,6 @@ span a:hover {
     transition-duration: .3s;
 }
 
-.ratio-4x3 {
-    @include media-breakpoint-up(md) {
-      --bs-aspect-ratio: 50%; // 2x1
-    }
-}
-
 .wabtn:hover{
     box-shadow: 0 0 1em 0 #222c368e;
     cursor: pointer;
