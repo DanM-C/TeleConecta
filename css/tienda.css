@@ -98,22 +98,6 @@ body{
     transition: .2s;
 }
 
-.carousel1 .buttons button:hover {
-    background: #E78000;
-}
-
-.carousel1 section button:hover {
-    border: #132240 solid .15em;
-}
-
-#carousel {
-    margin: 0;
-    height: 28.5em;
-    width: 63%;
-    float: right;
-    padding: 3em;
-}
-
 #carousel img {
     width: 100%;
     float: right;
