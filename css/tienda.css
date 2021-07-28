@@ -10,95 +10,15 @@ body{
     box-sizing: border-box;
 }
 
-/* LITTLE MENU */
-.all-menu {
-    float: center;
-    display: flex;
-    background: #152941;
-    width: 100%;
-    padding: 10px;
-    height: 8em;
-}
-
-.little-menu {
-    width: 100%;
-    padding: .3em;
-}
-
 .logo {
     text-align: center;
     height: 5.7em;
     margin: .5em;
 }
 
-/* Menú superior */
-.barra {
-    width: 100%;
-    display: flex;
-}
-
 .cero {
     height: 2em;
     padding: 0;
-}
-
-.bus {
-    width: 100%;
-}
-
-.Buscar{
-    padding: .3em .5em;
-    margin: .2em 0 .5em 1.2em;
-    border: none;
-    text-align: left;
-    border-radius: 1em;
-}
-
-/* Menú centro */
-
-h1 {
-    width: 100%;
-}
-
-/* Menú inferior */
-
-.menu {
-    font-size: 1em;
-    background: #152941;
-    float: left;
-    display: flex;
-    width: 100%;
-    margin: .4em;
-}
-
-.menu li {
-    padding: 4px 35px;
-    list-style: none;
-    text-decoration: none;
-    margin: 0 .5em;
-    border: solid 2px #152941;;
-    background: #ECD740;
-    color: #001929;
-}
-
-.mb {
-    cursor: pointer;
-    color: #001929;
-    font-weight: 600;
-    text-decoration: none;
-    transition: .45s;
-}
-
-.menu li:hover {
-    background: #E78000;
-    color: #152941;
-    border: solid 2px #E78000;
-    transition: .5s;
-}
-
-.one {
-    padding: .3em;
-    margin-right: 20px;
 }
 
 /* Promoción estática */
@@ -270,7 +190,7 @@ h1 {
     animation: grow .6s infinite alternate;
 }
 
-form {
+.formu {
     width: 55%;
     padding: 0 1em 0 6em;
     float: left;
