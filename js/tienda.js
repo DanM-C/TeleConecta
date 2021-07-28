@@ -15,7 +15,7 @@ function stopCarousel() {
 function nextImage() {
     var carrusel = document.getElementById('carousel');
 
-    if (idxImagen == 3) {
+    if (idxImagen == 1) {
         idxImagen = 0;
     }
 
@@ -25,18 +25,10 @@ function nextImage() {
 
     switch (idxImagen) {
         case 0:
-            carrusel.innerHTML = '<img src="/img/cell1.png" alt="">';
-            break;
-
-        case 1:
-            carrusel.innerHTML = '<img src="/img/cell2.png" alt="">';
-            break;
-
-        case 2:
             carrusel.innerHTML = '<img src="/img/LittleBanner2.png" alt="">';
             break;
 
-        case 3:
+        case 1:
             carrusel.innerHTML = '<img src="/img/LittleBanner1.png" alt="">';
             break;
     }
@@ -47,7 +39,7 @@ function afterImage() {
     var carrusel = document.getElementById('carousel');
 
     if (idxImagen == -1) {
-        idxImagen = 2;
+        idxImagen = 0;
     }
 
     else {
@@ -60,14 +52,6 @@ function afterImage() {
             break;
 
         case 0:
-            carrusel.innerHTML = '<img src="/img/cell1.png" alt="">';
-            break;
-
-        case 1:
-            carrusel.innerHTML = '<img src="/img/cell2.png" alt="">';
-            break;
-
-        case 2:
             carrusel.innerHTML = '<img src="/img/LittleBanner2.png" alt="">';
             break;
     }
