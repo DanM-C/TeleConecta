@@ -134,20 +134,12 @@ body{
     text-align: center;
 }
 
-.cell div {
-    width: 20%;
-    margin: 2%;
-    height: 65%;
-    align-items: baseline;
-    float: left;
-    border-radius: .5em;
-    text-align: center;
-    padding: 2.5% 0;
-    transition: .1s;
+.card img {
+    transition: .2s;
 }
 
-.cell div:hover {
-    box-shadow: #bfc5cc 0em 0em 1em;
+.card img:hover {
+    transform: scale(1.1);
 }
 
 .cell div img {
