@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/agendar_cita.css">
     <link rel="shortcut icon" href="/img/TC.ico" type="image/x-icon">
-    <script src="/js/main.js"></script>
+    <script src="/js/agendar_cita.js"></script>
     <!-- BootsTrap CSS - Js -->
     <link rel="stylesheet" href="/dist/css/bootstrap.css">
     <script src="/dist/js/bootstrap.js"></script>
@@ -58,22 +58,22 @@
         </div>
     </div>
     <audio src="/aud/YELLOW（神山羊）_offvocal（耳コピ）.mp3" autoplay loop></audio>
-    <div class="paragraphs">
-        <div class="cuerpo">
-            <div id="carrusel">
-                <img src="/img/AnimationHandCell/1.png" alt="">
-            </div>
-            <div class="all">
-                <h1>Ahorra tiempo y evita colas<br>Agenda tu cita</h1>
-                <div class="form-register">
+    <div class="container-fluid m-0 p-0 d-flex">
+        <div class="container-fluid m-0 p-0 col-6">
+            <img src="/img/handcell.png" alt="" class="col-12">
+        </div>
+        <div class="container col-6 my-5">
+            <h1 class="text-center m-0 p-0 fw-light">Ahorra tiempo y evita colas<br>Agenda tu cita</h1>
+            <div class="container-fluid col-12 text-dark p-md-5 p-3 d-sm-block d-none">
+                <div class="container form-register">
                     <form class="form" action="#">
                         <h1>Ingresa tu número de documento</h1>
                         <select name="documento" id="documento" class="space">
-                            <option value="documento">DNI</option>
-                            <option value="documento">CARNÉ DE EXTRANJERÍA</option>
-                            <option value="documento">PASAPORTE</option>
-                            <option value="documento">RUC</option>
-                            <option value="documento">PTP</option>
+                            <option value="documento1">DNI</option>
+                            <option value="documento2">CARNÉ DE EXTRANJERÍA</option>
+                            <option value="documento3">PASAPORTE</option>
+                            <option value="documento4">RUC</option>
+                            <option value="documento5">PTP</option>
                         </select>
                         <input class="spaces" type="number" name="apellidos" id="apellidos" placeholder="Número de documento"><br>
                         <input class="btns" type="submit" value="Continuar">
@@ -82,7 +82,22 @@
             </div>
         </div>
     </div>
-
+    <div class="container p-5 col-12 text-dark p-md-5 p-3 d-block d-sm-none">
+        <div class="container form-register">
+            <form class="form" action="#">
+                <h1>Ingresa tu número de documento</h1>
+                <select name="documento" id="documento" class="space">
+                    <option value="documento1">DNI</option>
+                    <option value="documento2">CARNÉ DE EXTRANJERÍA</option>
+                    <option value="documento3">PASAPORTE</option>
+                    <option value="documento4">RUC</option>
+                    <option value="documento5">PTP</option>
+                </select>
+                <input class="spaces" type="number" name="apellidos" id="apellidos" placeholder="Número de documento"><br>
+                <input class="btns" type="submit" value="Continuar">
+            </form>
+        </div>
+    </div>
     <div class="container-fluid p-2 bg-warning text-center d-block d-sm-none">
         <p class="align-self-center m-0 p-0">Todos los derechos reservados - 2021</p>
     </div>
