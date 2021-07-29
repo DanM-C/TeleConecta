@@ -142,34 +142,8 @@ body{
     transform: scale(1.1);
 }
 
-.cell div img {
-    height: 80%;
-}
-
-.cell div h2 {
-    font-size: .9em;
-}
-
-/* FORMULARIO DE SUSCRIPCIÓN */
-.form {
-    width: 100%;
-    height: 25em;
-    padding: 3.5em;
-    align-items: center;
-    line-height: 1.8em;
-}
-
-.form img {
-    padding: 3.5em;
-    width: 16em;
-    float: left;
+.e-card {
     animation: grow .6s infinite alternate;
-}
-
-.formu {
-    width: 55%;
-    padding: 0 1em 0 6em;
-    float: left;
 }
 
 @keyframes grow {
