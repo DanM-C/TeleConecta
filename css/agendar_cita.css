@@ -124,6 +124,32 @@ audio {
     font-size: 1.1em;
 }
 
+/* FOOTER */
+
+span a {
+    color: #000;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration-line: underline;
+}
+
+.ico {
+    text-align: center;
+    margin-right: .8em;
+    height: 2.5em;
+    font-size: .8em;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ilu {
+    width: 100%;
+    padding: .1em 0 1em 0;
+}
+
 /* ICONO DE REDIRECCIÓN A WHATSAPP */
 .wabtn {
     width: 5em;
