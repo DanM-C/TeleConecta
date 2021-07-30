@@ -168,10 +168,10 @@
             <!--? Se muestra en general -->
             <div class="container-fluid col-12 col-md-5 float-start text-light bg-transparent p-md-5 p-3">
                 <h1 class="text-center text-light mb-4">¡Regístrate!</h1>
-                <form class="text-light">
+                <form class="text-light" method ="">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
-                        <input type="text" class="form-control border-warning border-2 bg-transparent text-light" placeholder="User Name" id="exampleInputName" aria-label="nameHelp" required autofocus>
+                        <input type="text" class="form-control border-warning border-2 bg-transparent text-light" placeholder="User Name" id="exampleInputName" aria-label="nameHelp" pattern="[A-Za-z áéíóúÁÉÍÓÚ]{3,20}" required autofocus>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
@@ -183,7 +183,7 @@
                         <input type="password" class="form-control border-warning border-2 bg-transparent text-light" id="exampleInputPassword1" required>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                         <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#" class="text-light">Términos y Condiciones</a></label>
                     </div>
                     <div class="mb-3 text-center">
