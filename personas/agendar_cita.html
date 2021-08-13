@@ -82,8 +82,27 @@
                             <option value="documento5">PTP</option>
                         </select>
                         <input class="spaces" type="text" name="numDocumento" id="" placeholder="Número de documento" required maxlength="8" onkeydown="return validarNumero (evento);"><br>
-                        <input class="btns" type="submit" value="Continuar">
+                        <button type="button" class="btns" data-bs-toggle="modal" data-bs-target="#exampleModal">Continuar</button>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reservar una cita</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                ¿Desea continuar al formulario de reserva de cita?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">No gracias</button>
+                    <button type="button" class="btn btn-danger text-light">Si, adelante</button>
                 </div>
             </div>
         </div>
